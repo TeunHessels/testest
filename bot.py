@@ -15,7 +15,7 @@ __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file
 class ModerationBot(discord.Client):
     def __init__(self):
         # Change to whatever prefix you want
-        self.prefix = "!"
+        self.prefix = "+"
         self.prefix_length = len(self.prefix)
         self.storage = StorageManagement()
 
